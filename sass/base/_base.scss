@@ -43,8 +43,16 @@ a {
   color: inherit;
 }
 
+ul ul {
+  list-style-type: none;
+}
+
 li::marker {
   color: #777;
+}
+
+ul ul li {
+  padding-left: 1.5rem;
 }
 
 .list_content {
@@ -52,6 +60,10 @@ li::marker {
   line-height: 1.7;
   color: grey;
   margin-left: 3rem;
+}
+
+.list_hide {
+  list-style: none;
 }
 
 input:focus,
