@@ -43,8 +43,15 @@ a {
   color: inherit;
 }
 
-li {
-  list-style: none;
+li::marker {
+  color: #777;
+}
+
+.list_content {
+  font-size: 1.8rem;
+  line-height: 1.7;
+  color: grey;
+  margin-left: 3rem;
 }
 
 input:focus,

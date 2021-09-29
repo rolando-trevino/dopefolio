@@ -56,12 +56,16 @@
   }
 
   &__showcase-img-cont {
-    width: 100%;
+    width: 50%;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    align-items: center;
     margin-bottom: 6rem;
   }
 
   &__showcase-img {
-    width: 100%;
+    width: 50%;
   }
   &__content-main {
     width: 100%;

@@ -50,6 +50,7 @@
     letter-spacing: 1px;
   }
   &__links {
+    list-style: none;
     display: flex;
     @include respond(phone) {
       display: none;
